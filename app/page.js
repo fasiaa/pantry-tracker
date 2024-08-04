@@ -277,7 +277,7 @@ export default function Home() {
                 {name.charAt(0).toUpperCase() + name.slice(1)}
               </Typography>
               <Typography fontFamily="Verdana" variant={'h5'} color={'#333'} textAlign={'center'}>
-                {quantity}
+                Quantity: {quantity}
               </Typography>
               <Box display="flex">
                 <Button variant="contained" sx={{ mr: 2, backgroundColor: "#1a6b1c", "&:hover" : {backgroundColor: "#51c955"}}} onClick={() => addItem(name)}>
