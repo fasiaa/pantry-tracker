@@ -9,3 +9,4 @@ This project uses
 This application allows
 - Adding and removing pantry items to a database
 - Capturing Image and Storing it in the database
+- Filtering through the pantry items 
